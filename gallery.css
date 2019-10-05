@@ -1,0 +1,36 @@
+h1 {
+  margin: 5%;
+  padding: 2%;
+  border-bottom: 4px solid grey;
+}
+
+.main-gallery {
+  background-color: aqua;
+  background-size: cover;
+}
+.main-gallery div {
+  height: 300px;
+  width: 31.3%;
+  margin: 1%;
+  background-size: cover;
+  float: left;
+}
+#img1 {
+  background-image: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225358/Pug-On-White-01.jpg);
+}
+#img2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f0/Mops_oct09_cropped2.jpg);
+}
+#img3 {
+  background-image: url(https://i.etsystatic.com/6071694/r/il/567ffb/736350076/il_570xN.736350076_jx1l.jpg);
+}
+@media screen and (max-width: 850px) {
+  .main-gallery div, h1 {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main-gallery div, h1 {
+    width: 98%;
+  }
+
