@@ -24,6 +24,24 @@ h1 {
 #img3 {
   background-image: url(https://i.etsystatic.com/6071694/r/il/567ffb/736350076/il_570xN.736350076_jx1l.jpg);
 }
+#img4 {
+  background-image: url(https://www.loveyourdog.com/wp-content/uploads/2019/07/Best-Harness-For-Pugs.jpg);
+}
+#img5 {
+  background-image: url(https://i.guim.co.uk/img/media/504ea0b829df61cbc2ac689e07fbe5ff76cd4afe/2_391_2011_1207/master/2011.jpg?width=300&quality=85&auto=format&fit=max&s=9459c74c0dbe5e7e58b863fdfcee4944);
+}
+#img6 {
+  background-image: url(https://store-images.s-microsoft.com/image/apps.63016.13587416869939447.d6eb0402-41f4-49bd-ab8a-f8602537e408.bb5e2287-7118-4810-b47e-a17363c2c1ff?mode=scale&q=90&h=1080&w=1920);
+}
+#img7 {
+  background-image: url(https://www.dondeir.com/wp-content/uploads/2019/10/Pugs-reunion-con-correa.jpg);
+}
+#img8 {
+  background-image: url(https://collegian.com/wp-content/uploads/2018/10/IMG_3953.jpg);
+}
+#img9 {
+  background-image: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1191,w_2120,x_0,y_57/f_auto,q_auto,w_1100/v1554740850/shape/mentalfloss/64051-istock-685469924.jpg);
+}
 @media screen and (max-width: 850px) {
   .main-gallery div, h1 {
     width: 48%;
@@ -32,5 +50,3 @@ h1 {
 @media screen and (max-width: 650px) {
   .main-gallery div, h1 {
     width: 98%;
-  }
-
