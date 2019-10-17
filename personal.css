@@ -5,28 +5,41 @@
   display: flex;
 }
 .imagenes {
-  flex-grow: 1;
 }
 .info {
-  flex-grow: 1;
 }
 .imagenes {
   background-color: lightgray;
   display: flex;
-  flex-direction: row;
+  align-content: center;
 }
 .info {
+  padding: 10%;
   background-color: grey;
   display: flex;
   flex-direction: row;
-  align-content: space-around;
   flex-wrap: wrap;
 }
 img {
+  padding: 10%;
   width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 .texto {
   width: 100%;
 }
-
+h1 {
+  font-size: 40px;
+}
+p {
+  margin: 5px;
+}
+.tabla {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.celda {
+  width: 150px;
+}
