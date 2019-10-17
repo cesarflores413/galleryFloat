@@ -47,3 +47,11 @@ p {
 .celda {
   width: 150px;
 }
+@media screen and (max-width: 500px) {
+  .group {
+    flex-direction: column;
+  }
+  .tabla {
+    flex-direction: column;
+  }
+}
