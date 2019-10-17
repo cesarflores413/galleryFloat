@@ -5,8 +5,12 @@
   display: flex;
 }
 .imagenes {
+  flex-grow: 1;
+  align-items: center;
 }
 .info {
+  flex-grow: 1;
+  align-items: center;
 }
 .imagenes {
   background-color: lightgray;
@@ -21,7 +25,6 @@
   flex-wrap: wrap;
 }
 img {
-  padding: 10%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -43,3 +46,4 @@ p {
 .celda {
   width: 150px;
 }
+
